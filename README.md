@@ -1,4 +1,4 @@
-# movie-app-reudux
+# movie-app-redux
 Refactor a React app into using Redux
 
 Use Redux to manage state with React
