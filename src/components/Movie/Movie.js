@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navigation from '../elements/Navigation/Navigation';
 import MovieInfo from '../elements/MovieInfo/MovieInfo';
 import MovieInfoBar from '../elements/MovieInfoBar/MovieInfoBar';
@@ -29,6 +29,5 @@ const Movie = ({ movie, directors, actors, loading }) => (
     {loading ? <Spinner /> : null}
   </div>
 )
-
 
 export default Movie;
